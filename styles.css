@@ -10,6 +10,7 @@ body {
 a {
     border: none;
     outline: none;
+    transition: color 0.2s ease;
 }
 
 a img {
@@ -23,6 +24,13 @@ h1 {
     font-family: 'Gotham A', 'Gotham B', 'Gotham', 'Avenir next', arial, sans-serif;
     font-weight: 700;
     font-style: normal;
+}
+
+h1.logo {
+	padding: 0;
+	margin: 0;
+	font-weight: 400;
+	font-size: 30px;
 }
 
 p {
@@ -46,6 +54,10 @@ p {
 	float: right;
 }
 
+.float-left {
+	float: left;
+}
+
 #signup {
 	padding: 0 0 20px 0;
 }
@@ -53,7 +65,7 @@ p {
 input.email {
 	width: 488px;
 	font-size: 18px;
-	color: #A0A7AD;
+	color: #333;
 	text-align: center;
 	padding: 14px 0;
 	border: 1px solid #CED4DA;
@@ -108,6 +120,10 @@ a.earlyaccess:hover {
     color: #2288CD;
 }
 
+#footer span { 
+	padding-right: 5px;
+}
+
 button {
 	width: 490px;
 	font-size: 18px;
@@ -119,6 +135,42 @@ button {
 	margin-bottom: 10px;
 	text-decoration: none;
 	display: inline-block;
+	cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+	width: 490px;
+	font-size: 18px;
+	color: #fff;
+	background: #1782C9;
+	padding: 16px 0;
+	border: none;
+	border-radius: 0 0 4px 4px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+::-webkit-input-placeholder {
+   color: #A0A7AD;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #A0A7AD;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #A0A7AD;  
+}
+
+:-ms-input-placeholder {  
+   color: #A0A7AD;  
+}
+
+.ion-social-twitter	{
+	color: #BDD5EC;
+	font-size: 30px;
 }
 
 @media (max-width: 600px) {
@@ -132,7 +184,7 @@ button {
 	input.email {
 	width: 318px;
 	font-size: 18px;
-	color: #A0A7AD;
+	color: #333;
 	text-align: center;
 	padding: 14px 0;
 	border: 1px solid #CED4DA;
