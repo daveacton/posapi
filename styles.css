@@ -108,13 +108,26 @@ a.earlyaccess:hover {
     color: #2288CD;
 }
 
+button {
+	width: 490px;
+	font-size: 18px;
+	color: #fff;
+	background: #2C97DE;
+	padding: 16px 0;
+	border: none;
+	border-radius: 0 0 4px 4px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+
 @media (max-width: 600px) {
 
 	#footer {
-	   position: inherit;
-	   background: none;
-	   padding-top: 20px;
-	}
+	position: inherit;
+	background: none;
+	padding-top: 20px;
+}
 
 	input.email {
 	width: 318px;
@@ -137,6 +150,19 @@ a.earlyaccess:hover {
 		margin-bottom: 10px;
 		text-decoration: none;
 		display: inline-block;
+}
+
+button {
+	width: 320px;
+	font-size: 18px;
+	color: #fff;
+	background: #2C97DE;
+	padding: 16px 0;
+	border: none;
+	border-radius: 0 0 4px 4px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	display: inline-block;
 }
 
 
