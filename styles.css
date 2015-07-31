@@ -51,34 +51,23 @@ p {
 }
 
 input.email {
-	width: 260px;
-	font-size: 20px;
+	width: 488px;
+	font-size: 18px;
 	color: #A0A7AD;
 	text-align: center;
 	padding: 14px 0;
 	border: 1px solid #CED4DA;
-	border-radius: 4px;
-}
-
-input.submit {
-	width: 320px;
-	font-size: 20px;
-	color: #fff;
-	background: #2C97DE;
-	padding: 16px 0;
-	border: none;
-	border-radius: 4px;
-	margin-bottom: 20px;
+	border-radius: 4px 4px 0 0;
 }
 
 a.earlyaccess {
-	width: 320px;
-	font-size: 20px;
+	width: 490px;
+	font-size: 18px;
 	color: #fff;
 	background: #2C97DE;
 	padding: 16px 0;
 	border: none;
-	border-radius: 4px;
+	border-radius: 0 0 4px 4px;
 	margin-bottom: 10px;
 	text-decoration: none;
 	display: inline-block;
@@ -127,10 +116,33 @@ a.earlyaccess:hover {
 	   padding-top: 20px;
 	}
 
+	input.email {
+	width: 318px;
+	font-size: 18px;
+	color: #A0A7AD;
+	text-align: center;
+	padding: 14px 0;
+	border: 1px solid #CED4DA;
+	border-radius: 4px 4px 0 0;
+}
+
+	a.earlyaccess {
+		width: 320px;
+		font-size: 18px;
+		color: #fff;
+		background: #2C97DE;
+		padding: 16px 0;
+		border: none;
+		border-radius: 0 0 4px 4px;
+		margin-bottom: 10px;
+		text-decoration: none;
+		display: inline-block;
+}
+
 
 }
 
-@media (max-height: 800px) {
+@media (max-height: 880px) {
 
 	#footer {
 	   position: inherit;
