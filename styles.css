@@ -10,7 +10,10 @@ body {
 a {
     border: none;
     outline: none;
-    border-style: none;
+}
+
+a img {
+	border: none;
 }
 
 h1 {
