@@ -9,7 +9,8 @@ body {
 
 a {
     border: none;
-    outline: none
+    outline: none;
+    border-style: none;
 }
 
 h1 {
