@@ -163,6 +163,7 @@ button {
 	margin-bottom: 10px;
 	text-decoration: none;
 	display: inline-block;
+	cursor: pointer;
 }
 
 
