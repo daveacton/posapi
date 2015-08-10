@@ -33,10 +33,20 @@ h1.logo {
 	font-size: 30px;
 }
 
+h1.hero-text {
+	padding-bottom: 20px;
+}
+
 p {
 	color: #A0A7AD;
 	font-size: 16px;
 }
+
+img.hero {
+	height: 152px;
+	width: 456px;
+	margin-bottom: 20px;
+}	
 
 #main {
 	text-align: center;
@@ -60,6 +70,10 @@ p {
 
 #signup {
 	padding: 0 0 20px 0;
+}
+
+#about {
+	padding-bottom: 60px;
 }
 
 input.email {
@@ -173,7 +187,36 @@ button:hover {
 	font-size: 30px;
 }
 
+.feature {
+	margin-bottom: 40px;
+}
+
+@media (max-height: 1124px) {
+
+	#footer {
+	   position: inherit;
+	   background: none;
+	   padding-top: 20px;
+	}
+
+
+}
+
 @media (max-width: 600px) {
+
+h1 {
+    color: #34495E;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Gotham A', 'Gotham B', 'Gotham', 'Avenir next', arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+img.hero {
+	height: 100px;
+	width: 300px;
+}	
 
 	#footer {
 	position: inherit;
@@ -216,21 +259,22 @@ button {
 	text-decoration: none;
 	display: inline-block;
 	cursor: pointer;
+	transition: background-color 0.2s ease;
 }
 
+button:hover {
+	width: 320px;
+	font-size: 18px;
+	color: #fff;
+	background: #1782C9;
+	padding: 16px 0;
+	border: none;
+	border-radius: 0 0 4px 4px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	display: inline-block;
+
 
 }
-
-@media (max-height: 880px) {
-
-	#footer {
-	   position: inherit;
-	   background: none;
-	   padding-top: 20px;
-	}
-
-
-}
-
 
 
