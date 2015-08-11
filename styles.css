@@ -191,6 +191,10 @@ button:hover {
 	margin-bottom: 40px;
 }
 
+.container {
+	max-width: 600px;
+}
+
 @media (max-height: 1424px) {
 
 	#footer {
